@@ -1,0 +1,58 @@
+.card{
+  width: 269px;
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  .car-name{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.65px;
+    margin-bottom: 8px;
+  }
+  .model-price-container{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.28px;
+    color: #191919;
+    .car-price{
+      margin-left: 5px;
+    }
+  }
+  .car-img{
+    width: 228px;
+    height: 132px;
+    object-fit: contain;
+  }
+  .model-button{
+    width: 152px;
+    height: 34px;
+    border-radius: 40px;
+    background-color: #191919;
+    display: none;
+    margin-top: -10px;
+    .model-button-text{
+      font-size: 13px;
+      line-height: 23px;
+      letter-spacing: 0.07px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.card:hover {
+  .car-name{
+    color: #EB0A1E;
+  }
+  .model-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

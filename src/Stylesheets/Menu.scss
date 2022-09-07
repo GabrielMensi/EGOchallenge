@@ -1,0 +1,24 @@
+.menu-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .text-menu{
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+        color: #191919;
+    }
+    .menu-logo{
+        height: 18px;
+        width: 25px;
+        border-radius: 1.5px;
+        margin-left: 12px;
+        margin-right: 26px;
+    }
+}
+
+@media only screen and (max-width: 445px){
+    .text-menu{
+        display: none;
+    }
+}

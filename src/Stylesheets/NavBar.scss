@@ -1,0 +1,35 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #D8D8D8;
+    justify-content: space-between;
+    height: 70px;
+    .logo-model-container{
+        display: flex;
+        align-items: center;
+        .logo-container{
+            width: 10vw;
+            display: flex;
+            justify-content: center;
+        }
+        .logo{
+            width: 37.54px;
+            height: 37.54px;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .navbar-container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 200;
+        background-color: #FFF;
+        .logo-model-container{
+            margin-left: 15px;
+        }
+    }
+}

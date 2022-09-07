@@ -1,0 +1,12 @@
+.detail-main-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-bottom: 70px;
+  .slider{
+    margin-bottom: 66px;
+  }
+  .highlights-container{
+    align-self: center;
+  }
+}

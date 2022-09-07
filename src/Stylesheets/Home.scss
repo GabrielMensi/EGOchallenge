@@ -1,0 +1,25 @@
+.home-container{
+  min-height: 100vh;
+  .home-title{
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin-top: 85px;
+    margin-bottom: 70px;
+    margin-left: 10vw;
+  }
+}
+
+//MOBILE
+
+@media only screen and (max-width: 445px){
+  .home-container{
+    .home-title{
+      font-size: 35px;
+      line-height: 44px;
+      letter-spacing: -0.7px;
+      margin-top: 113px;
+    }
+  }
+}

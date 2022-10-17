@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import SearchBar from './SearchBar';
 import CardContainer from './CardContainer';
 import '../Stylesheets/Home.scss';
+import SkeletonCard from './SkeletonCard';
 
 
 export default function Home() {
@@ -100,8 +101,7 @@ export default function Home() {
       orderValue = {orderValue}
       filterValue = {filterValue}
        />
-      <CardContainer 
-      cars = {cars} />
+       {cars.length > 0 ? <CardContainer cars={cars} /> : <SkeletonCard />}
     </div>
   )
 }

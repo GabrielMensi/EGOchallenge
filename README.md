@@ -2,6 +2,10 @@
 
 ## Para correr el proyecto podes seguir las siguientes instrucciones:
 
+### Clickear acá https://ego-challenge-gmensi.vercel.app/
+
+o
+
 ### Clonar el repositorio
 ### Situarse en la carpeta 'EGO-TEST'
 ### Ejecutar npm install
